@@ -1,0 +1,56 @@
+/* nastavení těla stránky */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/paper-style-white-monochrome-background_52683-66443.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* nastavení záhlaví */
+header {
+background-color: black;
+color:white;
+text-align: center;
+text-transform: uppercase;
+padding: 1rem;
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+header p {
+    font-size: 1em;
+}
+
+/* nastavení hlavní časti */
+
+main {
+    width: 1200px;
+    margin: 50px auto; 
+}
+
+/* nastavení flexboxu */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    background-color:aquamarine;
+    margin:20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* responzivní desigh */   
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 90%;
+    }
+    .felx-container {
+    flex-direction: collumn;
+}
+}
+
